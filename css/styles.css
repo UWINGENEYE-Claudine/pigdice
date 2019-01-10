@@ -1,0 +1,82 @@
+body {
+    text-align: center;
+    background-color: #dadada;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    font-family: 'Erica One', sans-serif;
+    padding:10px;
+  }
+  
+  #title {
+    font-size: 72px;
+  }
+  
+  h2 {
+    font-family: 'Erica One', sans-serif;
+  }
+  
+  h3 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .pig {
+    margin-top: 2%;
+    margin-right:40px;
+    margin-bottom:40px;
+    background-color:pink;
+
+  }
+  
+  .running-total {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .total-score {
+    font-family: 'Roboto', sans-serif;
+    font-size: 48px;
+  }
+  
+  .player-one-rolls-one {
+    font-size: 36px;
+    font-family: 'Erica One', sans-serif;
+    text-align: center;
+    display: none;
+  }
+  
+  .player-col {
+    border:1px solid greenyellow;  
+    border-radius: 70px;
+    height: 450px;
+    background: white;
+  }
+  
+  .btn {
+    height: 60px;
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    color: #fff;
+  }
+  #player-one-buttons{
+      text-align:center;
+  }
+  #winner {
+    display: none;
+    font-family: 'Erica One';
+    font-size: 72px;
+  }
+  
+  #player-two-buttons {
+    display: none;
+  }
+  
+  
+  
+
