@@ -3,22 +3,30 @@ body {
     background-color: #dadada;
   }
   
-  img {
-    width: 100%;
-  }
   
   h1 {
     text-align: center;
     font-family: 'Erica One', sans-serif;
-    padding:10px;
+    padding-bottom:30px;
+    background-color:lightsalmon;
+    margin-left:40px;
+    margin-right:40px;
+    margin-bottom:20px;
+    border-radius: 10px;
   }
-  
+  p{
+    font-weight:bold;
+    font-size:large;
+  }
   #title {
     font-size: 72px;
   }
   
   h2 {
-    font-family: 'Erica One', sans-serif;
+    font-family:cursive;
+    font-size:large;
+    font-weight:bold;
+    color:green;
   }
   
   h3 {
@@ -26,11 +34,15 @@ body {
   }
   
   .pig {
-    margin-top: 2%;
-    margin-right:40px;
-    margin-bottom:40px;
-    background-color:pink;
-
+    padding-bottom: 15%;
+    margin-top:0px;
+    margin-right:0px;
+    margin-bottom:10px;
+    background-color: bisque;
+    background-size:cover;
+    box-sizing: content-box;
+    width:98%;
+    height: 560px
   }
   
   .running-total {
@@ -50,10 +62,10 @@ body {
   }
   
   .player-col {
-    border:1px solid greenyellow;  
-    border-radius: 70px;
-    height: 450px;
-    background: white;
+    border:6px solid black;  
+    height: 300px;
+    background-color:wheat;
+    padding:5px;
   }
   
   .btn {
@@ -62,10 +74,9 @@ body {
     font-size: 18px;
     font-weight: bold;
     margin: 10px;
-    color: #fff;
-  }
-  #player-one-buttons{
-      text-align:center;
+    color:palevioletred;
+    padding-top:30px;
+    background-color:lightsalmon;
   }
   #winner {
     display: none;
