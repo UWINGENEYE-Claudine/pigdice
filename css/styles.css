@@ -1,9 +1,15 @@
-body {
-    text-align: center;
-    background-color: #dadada;
-  }
-  
-  
+
+#nav{
+  text-align:right;
+}
+#nav>a{
+  margin-right: 40px;
+  color:blue;
+  text-transform: uppercase;
+}
+#nav>:hover{
+  color: orchid;
+}
   h1 {
     text-align: center;
     font-family: 'Erica One', sans-serif;
@@ -18,33 +24,32 @@ body {
     font-weight:bold;
     font-size:large;
   }
-  #title {
-    font-size: 72px;
-  }
   
   h2 {
     font-family:cursive;
     font-size:large;
     font-weight:bold;
-    color:green;
+    text-align:center;
   }
   
   h3 {
-    font-family: 'Roboto', sans-serif;
+    font-family: sans-serif;
+    font-weight:bold;
+    font-size:large;
   }
-  
+  p{
+    text-align:center;
+  }
   .pig {
-    padding-bottom: 15%;
-    margin-top:0px;
-    margin-right:0px;
+    padding-top: 5px;
+    padding-bottom:15%;
+    margin-top:10px;
     margin-bottom:10px;
     background-color: bisque;
-    background-size:cover;
-    box-sizing: content-box;
-    width:98%;
-    height: 560px
+    box-sizing: border-box;
+    width:100%;
+    height:710px;
   }
-  
   .running-total {
     font-family: 'Roboto', sans-serif;
   }
@@ -55,17 +60,18 @@ body {
   }
   
   .player-one-rolls-one {
-    font-size: 36px;
+    font-size: 46px;
     font-family: 'Erica One', sans-serif;
-    text-align: center;
+    text-align:center;
     display: none;
   }
   
   .player-col {
     border:6px solid black;  
     height: 300px;
-    background-color:wheat;
-    padding:5px;
+    background-color:mediumvioletred;
+    padding-top:5px;
+    padding-bottom: 15px;
   }
   
   .btn {
@@ -87,7 +93,12 @@ body {
   #player-two-buttons {
     display: none;
   }
-  
+  footer{
+    margin-top:28px;
+    background-color:lightsalmon;
+    text-align:center;
+    border-radius: 60px;
+  }
   
   
 
